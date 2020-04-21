@@ -6,11 +6,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		docker-compose.yml = docker-compose.yml
 		.env = .env
 		README.MD = README.MD
+		EmptyTextFile.txt = EmptyTextFile.txt
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learana_tests", "learana-tests\learana_tests.csproj", "{F1BA7F96-E565-4BEC-81C4-334F442CF3BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "data", "neo4j\data.csproj", "{CE525F52-3142-4684-B516-31C864BA70D8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "neo4j\Database.csproj", "{CE525F52-3142-4684-B516-31C864BA70D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
